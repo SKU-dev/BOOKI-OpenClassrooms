@@ -1,0 +1,513 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway'
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+img
+{
+    padding-left: 10px;
+}
+
+header img
+{
+    margin: 10px;
+}
+
+nav ul
+{
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+header li
+{
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-top: 10px;
+    width:150px;
+    height: 25px;
+    border-top: 2px solid white;
+}
+
+header li:hover
+{
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+}
+
+.accommodationLink, .activitiesLink
+{
+    display: flex;
+    justify-content: center;
+    text-decoration:none;
+    color: black;
+    padding-top: 10px;
+    width:150px;
+    height: 25px;
+    border-top: 2px solid white;
+}
+
+.registrationLink
+{
+    display: flex;
+    justify-content: center;
+    text-decoration:none;
+    list-style: none;
+    align-items: center;
+    color: #0065fc;
+    margin-top: 10px;
+    width:150px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.firstSection
+{
+    padding-left: 25px;
+}
+
+h2, .caseResearch, .sectionfiltersBar, .exceptionalParagraph
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p
+{
+    font-size: small;
+}
+
+.caseResearch
+{
+    display: flex;
+    align-items: center;
+}
+
+.iconMap
+{
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.search
+{
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px; 
+}
+
+.searchButton
+{
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.sectionfiltersBar
+{
+    display: flex;
+    align-items: center;
+}
+
+.sectionfiltersBar h4
+{
+    padding-right: 10px;
+}
+
+.listingfiltersBar
+{
+    display: flex;
+}
+
+.popularTitle
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popularTitle
+{
+    padding-right: 10px;
+}
+
+.listingfiltersBar  li
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: #F2F2F2;
+    border-left: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.listingfiltersBar  li:hover
+{
+    background-color: #DEEBFF;
+}
+
+.listingfiltersBar  div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    padding: 10px;
+    height: 15px;
+    width:15px;
+    color: #0065fc;
+}
+
+.listingfiltersBar li span
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.caseFurtherInformation
+{
+    display: flex;
+    align-items: center;
+}
+
+.iconsInfo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: grey solid 1px;
+    padding: 1px;
+    height: 15px;
+    width:15px;
+    color: #0065fc;
+    font-size: x-small;
+}
+
+.caseFurtherInformation  p
+{
+    padding-left: 10px;
+}
+
+.secondSection
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.secondSectionDivOfLeft
+{
+    display: flex;
+    background-color: grey;
+    width: 65%;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.SizeTitle
+{
+    margin: 10px;
+}
+
+
+.showMore
+{
+    margin-left: 30px;
+}
+
+.listingMap
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blockSecondSectionDivOfLeft
+{
+    background: white;
+    border-radius: 10px;
+    margin: 20px;
+    align-items: center;
+}
+
+.accommodationBoxSize
+{
+    width: 200px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.StarsIconsNote
+{
+    margin-left: 10px;
+}
+
+.marcus-loke-WQJvWU_HZFo
+{
+    background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+}
+
+.fred-kleber-gTbaxaVLvsg
+{
+    background-image: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+}
+
+.reisetopia-B8WIgxA_PFU
+{
+    background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+}
+.annie-spratt-Eg1qcIitAuA
+{
+    background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+}
+
+.nicate-lee-kT-ZyaiwBe0
+{
+    background-image: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+}
+
+.febrian-zakaria-M6S1WvfW68A
+{
+    background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+}
+
+.listingMap h6,.listingMap p
+{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.iconStar
+{
+    color: #0065fc;
+    padding-bottom: 10px;
+    font-size: small;
+}
+
+.iconStarDifferent
+{
+    color: #F2F2F2;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.secondSectionDivOfRight
+{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 35%;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.blockPopular
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.popularTextContent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px;
+    padding: 5px;
+}
+
+.blockSecondSectionDivOfRight
+{
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.popularContainer
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.popularBoxSize
+{
+    width: 150px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 10px 0px 0px 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.emile-guillemot-Bj_rcSC5XfE
+{
+    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+}
+
+.aw-creative-VGs8z60yT2c
+{
+    background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+}
+
+.febrian-zakaria-sjvU0THccQA
+{
+    background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+}
+
+.thirdSection
+{
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.parentdeParent
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parentdeParent > div
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 255, .2);
+    border: yellow solid 1px;
+    width: auto;
+}
+
+.parentdeParent > div:hover
+{
+    box-shadow: none;
+}
+
+.activitiesBoxSize
+{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    border: red solid 1px;
+}
+
+.activitiesBoxSizeSmall
+{
+    width: 250px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+    background-position: center;
+        border: red solid 1px;
+}
+
+.activitiesBoxSizeXsSmall
+{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+    background-position: center;
+        border: red solid 1px;
+}
+
+.reno-laithienne-QUgJhdY5Fyk
+{
+    background-image: url("images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+}
+
+.kilyan-sockalingum-NR8-cBCN3aI
+{
+    background-image: url("images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+}
+
+.paul-hermann-QFTrLdQIRhI
+{
+    background-image: url("images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+}
+
+.kevin-hikari-rV_Qd1l-VXg
+{
+    background-image: url("images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+}
+
+.florian-wehde-xW9e8gdotxI
+{
+    background-image: url("images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+}
+
+.lena-paulin-wH2-EJoDcV0
+{
+    background-image: url("images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+}
+
+.text
+{
+    background-color: white;
+    border: 5px solid white;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer
+{
+    display: flex;
+    background: #F2F2F2;
+    margin-top: 10px;
+    width: 100%;
+}
+
+footer div
+{
+    display: block;
+    margin: 20px;
+    width: 30%;
+}
+
+footer h3
+{
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+footer p
+{
+    margin: 10px;
+    width: 30%;
+}
