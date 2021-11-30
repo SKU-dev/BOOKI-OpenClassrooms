@@ -11,28 +11,28 @@ header
     justify-content: space-between;
 }
 
-img
+a
 {
-    padding-left: 10px;
+    text-decoration: none;
 }
 
 header img
 {
-    margin: 10px;
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 nav ul
 {
     display: flex;
-    text-align: center;
-    list-style: none;
 }
 
 header li
 {
     display: flex;
     justify-content: center;
-    color: black;
     padding-top: 10px;
     width:150px;
     height: 25px;
@@ -132,6 +132,7 @@ p
 .listingfiltersBar
 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .popularTitle
@@ -218,8 +219,8 @@ p
 .secondSectionDivOfLeft
 {
     display: flex;
-    background-color: grey;
-    width: 65%;
+    background-color: #F2F2F2;
+    width: 75%;
     margin-left: 20px;
     margin-right: 10px;
     border-radius: 10px;
@@ -233,69 +234,43 @@ p
     margin: 10px;
 }
 
-
-.showMore
+.showMore h4 
 {
     margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
 }
 
 .listingMap
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .blockSecondSectionDivOfLeft
 {
     background: white;
     border-radius: 10px;
-    margin: 20px;
+    margin: 0px 10px 10px 0px;
+    padding: 5px;
     align-items: center;
+    display: block;
+    width: 30%;
+    color: black;
 }
 
-.accommodationBoxSize
+.blockSecondSectionDivOfLeft img
 {
-    width: 200px;
-    height: 100px;
-    border: 5px solid white;
-    border-radius: 10px 10px 0px 0px;
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 50px;
+    object-fit: cover;
 }
 
 .StarsIconsNote
 {
     margin-left: 10px;
-}
-
-.marcus-loke-WQJvWU_HZFo
-{
-    background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-}
-
-.fred-kleber-gTbaxaVLvsg
-{
-    background-image: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-}
-
-.reisetopia-B8WIgxA_PFU
-{
-    background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-}
-.annie-spratt-Eg1qcIitAuA
-{
-    background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-}
-
-.nicate-lee-kT-ZyaiwBe0
-{
-    background-image: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-}
-
-.febrian-zakaria-M6S1WvfW68A
-{
-    background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 }
 
 .listingMap h6,.listingMap p
@@ -322,10 +297,10 @@ p
 {
     display: flex;
     flex-direction: column;
-    background-color: grey;
-    width: 35%;
+    background-color: #F2F2F2;
+    width: 25%;
     margin-right: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -343,7 +318,6 @@ p
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: solid 1px;
     padding: 5px;
 }
 
@@ -353,6 +327,17 @@ p
     background: white;
     border-radius: 10px;
     margin: 10px;
+    padding: 5px;
+    color: black;
+}
+
+.blockSecondSectionDivOfRight img
+{
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .popularContainer
@@ -362,122 +347,98 @@ p
     flex-direction: column;
 }
 
-.popularBoxSize
+.thirdSection h2
 {
-    width: 150px;
-    height: 100px;
-    border: 5px solid white;
-    border-radius: 10px 0px 0px 10px;
-    background-size: cover;
-    background-position: center;
-}
-
-.emile-guillemot-Bj_rcSC5XfE
-{
-    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-}
-
-.aw-creative-VGs8z60yT2c
-{
-    background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-}
-
-.febrian-zakaria-sjvU0THccQA
-{
-    background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-}
-
-.thirdSection
-{
-    margin: 10px;
     margin-left: 20px;
-    padding: 10px;
+    margin-top: 40px;
 }
 
-.parentdeParent
+.sale
 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 10px;
 }
 
-.parentdeParent > div
+.sale img 
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.sale h3
+{
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imgLarge
+{
+    margin: 0 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px -2px rgb(98 98 99 / 34%);
+}
+
+.imgLarge , .activity-container
+{
+    width: 22%;
+}
+
+.imgLarge img
+{
+    width: 100%;
+    height: 464px;
+    object-fit: cover;
+}
+
+/* .activity-container a:nth-child(1) 
+{
+    margin-bottom: 20px;
+} */
+.activity-container
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.activity-container img 
+{
+    width: 100%;
+}
+
+.small , .xsSmall
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 255, .2);
-    border: yellow solid 1px;
-    width: auto;
+    box-shadow: 3px 3px 5px -2px rgb(98 98 99 / 34%);
+    display: block;
 }
 
-.parentdeParent > div:hover
+.small img
 {
-    box-shadow: none;
-}
-
-.activitiesBoxSize
-{
-    width: 250px;
-    height: 350px;
-    border-radius: 10px 10px 0px 0px;
-    background-size: cover;
-    background-position: center;
-    border: red solid 1px;
-}
-
-.activitiesBoxSizeSmall
-{
-    width: 250px;
-    height: 100px;
-    border-radius: 10px 10px 0px 0px;
-    background-size: cover;
-    background-position: center;
-        border: red solid 1px;
-}
-
-.activitiesBoxSizeXsSmall
-{
-    width: 250px;
     height: 150px;
-    border-radius: 10px 10px 0px 0px;
-    background-size: cover;
-    background-position: center;
-        border: red solid 1px;
 }
 
-.reno-laithienne-QUgJhdY5Fyk
+.xsSmall img
 {
-    background-image: url("images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    height: 250px;
 }
 
-.kilyan-sockalingum-NR8-cBCN3aI
+.imgLarge:hover, .xsSmall:hover , .small:hover
 {
-    background-image: url("images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-}
-
-.paul-hermann-QFTrLdQIRhI
-{
-    background-image: url("images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-}
-
-.kevin-hikari-rV_Qd1l-VXg
-{
-    background-image: url("images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-}
-
-.florian-wehde-xW9e8gdotxI
-{
-    background-image: url("images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-}
-
-.lena-paulin-wH2-EJoDcV0
-{
-    background-image: url("images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    box-shadow: 10px 10px 10px -10px rgb(56, 56, 56);
 }
 
 .text
 {
-    background-color: white;
     border: 5px solid white;
     padding: 5px;
     font-weight: bold;
@@ -488,7 +449,7 @@ footer
 {
     display: flex;
     background: #F2F2F2;
-    margin-top: 10px;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -499,15 +460,13 @@ footer div
     width: 30%;
 }
 
-footer h3
+footer div h3
 {
     margin: 10px;
     margin-bottom: 20px;
-    width: 30%;
 }
 
-footer p
+footer div p 
 {
     margin: 10px;
-    width: 30%;
 }
